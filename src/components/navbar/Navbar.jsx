@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="nav">
         <div className="nav-logo" data-aos='fade-down'>PORTFOLIO.
-          <p className='logo-text' data-aos='fade-left'>Computer Science and Data Science</p>
+          <p className='logo-text' data-aos='zoom-in'>Computer Science and Data Science</p>
         </div>
         
         <ul className="nav-menu">
