@@ -1,0 +1,12 @@
+.experience-container {
+    background-color: rgb(29, 29, 29);
+    border-radius: 20px;
+    padding: 160px;
+}
+
+.header {
+    text-align: left;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: normal;
+}

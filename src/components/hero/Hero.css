@@ -1,0 +1,36 @@
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* changed from center */
+    padding: 80px 20px 40px; /* top padding controls spacing from navbar */
+
+    color: #000000;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.main-container {
+    max-width: 700px;
+}
+
+.intro h3 {
+    margin-top: 120px;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.intro h1 {
+    font-weight: normal;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 395px;
+}
