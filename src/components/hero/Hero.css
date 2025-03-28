@@ -1,13 +1,11 @@
 .intro {
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* changed from center */
-    padding: 80px 20px 40px; /* top padding controls spacing from navbar */
-
+    align-items: flex-start; 
+    padding: 80px 20px 40px; 
     color: #000000;
     text-align: center;
     box-sizing: border-box;
-    
 }
 
 .main-container {
@@ -18,12 +16,15 @@
     margin-top: 120px;
     font-weight: normal;
     font-size: 35px;
+    text-align: left;
 }
 
 .intro h1 {
     font-weight: normal;
-    font-size: 60px;
+    font-size: 160px;
     margin-bottom: 20px;
+    margin-top: -20px;
+    text-align: left;
 }
 
 .intro-text {
@@ -33,4 +34,5 @@
     text-align: center;
     font-weight: normal;
     margin-bottom: 395px;
+    text-align: left;
 }
