@@ -1,8 +1,8 @@
 import React from 'react';
 import './Experience.css';
 import StyxLogo from '../../assets/Styx Logo.png';
-import GGGLogo from '../../assets/GGG-Logo.png';
-import LPLogo from '../../assets/LP-Logo.jpg';
+import GGGLogo from '../../assets/GGG-logo.png';
+import LPLogo from '../../assets/LP-logo.jpg';
 
 const Experience = () => {
   return (
