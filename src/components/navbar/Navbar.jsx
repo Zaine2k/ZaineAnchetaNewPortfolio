@@ -4,14 +4,16 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div className="nav">
-        <div className="nav-logo">Zaine Ancheta</div>
+        <div className="nav-logo" data-aos='fade-down'>PORTFOLIO.
+          <p className='logo-text' data-aos='fade-left'>Computer Science and Data Science</p>
+        </div>
         
         <ul className="nav-menu">
-            <li>Home</li>
-            <li>Skills</li>
-            <li>Experience</li>
-            <li>Projects</li>
-            <li className="nav-contact">Contact Me</li>
+            <li data-aos='fade-down'>Home</li>
+            <li data-aos='fade-down'>Skills</li>
+            <li data-aos='fade-down'>Experience</li>
+            <li data-aos='fade-down'>Projects</li>
+            <li className="nav-contact" data-aos='fade-down'>Contact Me</li>
         </ul>
     </div>
   )

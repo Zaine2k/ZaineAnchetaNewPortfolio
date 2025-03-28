@@ -65,6 +65,10 @@
     color: rgb(179, 179, 179);
     padding-left: 0;
   }
+
+  .job-deescription {
+    font-size: 25px;
+  }
   
   .work-logo {
     width: 200px;
