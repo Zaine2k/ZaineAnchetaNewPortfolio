@@ -3,6 +3,7 @@ import './Experience.css';
 import StyxLogo from '../../assets/Styx Logo.png';
 import GGGLogo from '../../assets/GGG-logo.png';
 import LPLogo from '../../assets/LP-logo.jpg';
+import LDSLogo from '../../assets/LDS-logo.png';
 
 const Experience = () => {
   return (
@@ -11,7 +12,7 @@ const Experience = () => {
         <h2 className='header-work' data-aos='fade-right'>\\\\\ Work Experience.</h2>
         <p className='header-work-text'data-aos='fade-right'>
           I've had the opportunity to start a software company, intern as a software developer, and work in the game industry.
-          These experiences have shaped my ability to solve problems, collaborate and create.
+          These experiences have shaped my ability to solve problems, collaborate and to approach things creatively.
         </p>
 
         <div className="textbox-work"data-aos='fade-up'>
@@ -43,10 +44,22 @@ const Experience = () => {
             <div className="work-text">
               <p className='job-title-text'>Music Producer / Sound Designer</p>
               <p className='job-company'>Glass Gecko Games | Calgary, AB</p>
-              <p className='job-time'>February 2025 - Present | Remote</p>
+              <p className='job-time'>February 2025 - Present | Hybrid</p>
               <p className='job-description'></p>
             </div>
             <img src={GGGLogo} alt="GGG Logo" className="work-logo" />
+          </div>
+        </div>
+
+        <div className="textbox-work"data-aos='fade-up'>
+          <div className="work-flex">
+            <div className="work-text">
+              <p className='job-title-text'>Website Developer</p>
+              <p className='job-company'>The Church of Jesus Christ of Latter-day Saints: Memorial Ward | Calgary, AB</p>
+              <p className='job-time'>January 2025 - Present | Hybrid</p>
+              <p className='job-description'></p>
+            </div>
+            <img src={LDSLogo} alt="LDS Logo" className="work-logo" />
           </div>
         </div>
       </div>
