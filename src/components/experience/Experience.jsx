@@ -9,9 +9,8 @@ const Experience = () => {
   return (
     <div>
       <div className='experience-container' data-aos='fade-down'> 
-        <h2 className='header-work' data-aos='fade-right'>\\\\\ Work Experience.</h2>
+        <h2 className='header-work' data-aos='fade-right'>Work Experience.</h2>
         <p className='header-work-text'data-aos='fade-right'>
-          I've had the opportunity to start a software company, intern as a software developer, and work in the game industry.
           These experiences have shaped my ability to solve problems, collaborate and to approach things creatively.
         </p>
 
