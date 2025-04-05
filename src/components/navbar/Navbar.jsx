@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import './Navbar.css';
 
@@ -9,8 +9,15 @@ import { FaTools } from "react-icons/fa";
 import { FaBrain } from "react-icons/fa6";
 import { IoExtensionPuzzle } from "react-icons/io5";
 import { FaLink } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
+
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => setIsOpen(!isOpen);
+  const closeMenu = () => setIsOpen(false);
+
   return (
     <div className="nav">
       <div className="nav-logo" data-aos='fade-down'>
@@ -26,36 +33,30 @@ const Navbar = () => {
         </div>
       </div>
 
-      <ul className="nav-menu">
-        <li data-aos="fade-down">
+      <div className="hamburger" onClick={toggleMenu}>
+        <GiHamburgerMenu size={30} />
+      </div>
+
+      <ul className={`nav-menu ${isOpen ? 'active' : ''}`}>
+        <li onClick={closeMenu}>
           <Link to="hero" smooth={true} duration={1000} offset={-70}>Home</Link>
-          <div className="button-icons">
-            <IoIosHome />
-          </div>
+          <div className="button-icons"><IoIosHome /></div>
         </li>
-        <li data-aos="fade-down">
+        <li onClick={closeMenu}>
           <Link to="skills" smooth={true} duration={1000} offset={-70}>Skills</Link>
-          <div className="button-icons">
-            <FaBrain />
-          </div>
+          <div className="button-icons"><FaBrain /></div>
         </li>
-        <li data-aos="fade-down">
+        <li onClick={closeMenu}>
           <Link to="experience" smooth={true} duration={1000} offset={-70}>Experience</Link>
-          <div className="button-icons">
-            <FaTools />
-          </div>
+          <div className="button-icons"><FaTools /></div>
         </li>
-        <li data-aos="fade-down">
+        <li onClick={closeMenu}>
           <Link to="projects" smooth={true} duration={1000} offset={-70}>Projects</Link>
-          <div className="button-icons">
-            <IoExtensionPuzzle />
-          </div>
+          <div className="button-icons"><IoExtensionPuzzle /></div>
         </li>
-        <li className="nav-contact" data-aos="fade-down">
+        <li className="nav-contact" onClick={closeMenu}>
           <Link to="contact" smooth={true} duration={1000} offset={-70}>Contact Me</Link>
-          <div className="button-icons">
-          <FaLink />
-          </div>
+          <div className="button-icons"><FaLink /></div>
         </li>
       </ul>
     </div>

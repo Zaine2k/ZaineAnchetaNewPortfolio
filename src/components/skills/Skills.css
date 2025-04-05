@@ -83,7 +83,53 @@
     margin-top: 15px;
     align-items: center;
   }
-
+  @media (max-width: 425px) {
+    .skills-container {
+      padding: 40px 20px;
+      margin: 50px -10px;
+      border-radius: 30px;
+    }
+  
+    .header-skills {
+      font-size: 40px;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+  
+    .header-skill-text {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+  
+    .skills-grid {
+      grid-template-columns: 1fr; /* stack boxes vertically */
+      gap: 20px;
+    }
+  
+    .textbox-skills-1,
+    .textbox-skills-2,
+    .textbox-skills-3,
+    .textbox-skills-4 {
+      padding: 20px;
+    }
+  
+    .skill-title {
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+  
+    .skill-text {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  
+    .skill-icons {
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
   
 
   

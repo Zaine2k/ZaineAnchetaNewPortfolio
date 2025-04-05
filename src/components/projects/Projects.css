@@ -62,4 +62,45 @@
     transform: scale(1.03);
   }
   
+  @media (max-width: 425px) {
+    .project-container {
+      padding: 40px 20px;
+      margin: 50px -10px;
+      border-radius: 30px;
+    }
+  
+    .header-project {
+      font-size: 40px;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+  
+    .header-project-text {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+  
+    .project-grid {
+      grid-template-columns: 1fr; /* stack projects vertically */
+      gap: 20px;
+    }
+  
+    .textbox-project {
+      padding: 20px;
+    }
+  
+    .project-title {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+  
+    .project-text {
+      font-size: 16px;
+    }
+  
+    .project-image {
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+  }
   
