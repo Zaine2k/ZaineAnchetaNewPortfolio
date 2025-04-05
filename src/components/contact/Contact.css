@@ -94,6 +94,40 @@
   }
 }
 
+@media (max-width: 600px) {
+  .contact-container {
+    padding: 100px 40px;
+    margin: 60px -10px;
+  }
+
+  .text-container {
+    padding: 25px;
+    margin-top: 70px;
+    margin-bottom: -30px;
+    border-radius: 70px;
+  }
+
+  .header-contact {
+    font-size: 55px;
+    margin-top: -30px;
+  }
+
+  .contact-text {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .contact-links a {
+    font-size: 24px;
+    margin-top: 0;
+  }
+}
 
 
 
