@@ -15,18 +15,20 @@
     display: flex;
     gap: 5px;
     margin-left: -10px;
-    margin-bottom: -20px;
+    margin-bottom: 20px;
   }
   
   .nav-logo {
     font-size: 52px;
     font-weight: 500;
     white-space: nowrap;
+    font-weight: 100;
   }
   
   .logo-text {
     margin-top: -10px;
     font-size: 15px;
+    font-weight: 100;
   }
   
   .nav-menu {
@@ -147,7 +149,7 @@
   
     .nav-logo {
       font-size: 28px;
-      font-weight: 600;
+      font-weight: 100;
     }
   
     .logo-text {
@@ -181,7 +183,7 @@
   
     .nav-logo {
       font-size: 36px;
-      font-weight: 600;
+      font-weight: 100;
     }
   
     .logo-text {
