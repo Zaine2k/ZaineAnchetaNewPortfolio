@@ -11,7 +11,7 @@ const Experience = () => {
       <div className='experience-container' data-aos='fade-down'> 
         <h2 className='header-work' data-aos='fade-right'>Work Experience.</h2>
         <p className='header-work-text'data-aos='fade-right'>
-          These experiences have shaped my ability to solve problems, collaborate and to approach things creatively.
+          These experiences have shaped my ability to solve problems and collaborate.
         </p>
 
         <div className="textbox-work"data-aos='fade-up'>

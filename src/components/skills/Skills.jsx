@@ -81,7 +81,7 @@ const Skills = () => {
                 <div className="textbox-skills-4"data-aos='fade-up'>
                 <p className="skill-title">General Programming Skills</p>
                 <p className="skill-text">I have experience in other languages such as Java and C#.
-                    I also have experience with project management and using GitHub for project management and version control.</p>
+                    I also have experience with project management and using GitHub for version control.</p>
                     <div className="skill-icons">
                         <FaJava size={50} title="Java"/>
                         <TbBrandCSharp size={50} title="CSharp"/>
