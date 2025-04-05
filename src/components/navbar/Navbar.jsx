@@ -33,30 +33,30 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="hamburger" onClick={toggleMenu}>
+      <div className="hamburger" onClick={toggleMenu} data-aos='fade-down'>
         <GiHamburgerMenu size={30} />
       </div>
 
       <ul className={`nav-menu ${isOpen ? 'active' : ''}`}>
         <li onClick={closeMenu}>
-          <Link to="hero" smooth={true} duration={1000} offset={-70}>Home</Link>
-          <div className="button-icons"><IoIosHome /></div>
+          <Link to="hero" smooth={true} duration={1000} offset={-70} data-aos='fade-down'>Home</Link>
+          <div className="button-icons" data-aos='fade-up'><IoIosHome /></div>
         </li>
         <li onClick={closeMenu}>
-          <Link to="skills" smooth={true} duration={1000} offset={-70}>Skills</Link>
-          <div className="button-icons"><FaBrain /></div>
+          <Link to="skills" smooth={true} duration={1000} offset={-70} data-aos='fade-down'>Skills</Link>
+          <div className="button-icons" data-aos='fade-up'><FaBrain /></div>
         </li>
         <li onClick={closeMenu}>
-          <Link to="experience" smooth={true} duration={1000} offset={-70}>Experience</Link>
-          <div className="button-icons"><FaTools /></div>
+          <Link to="experience" smooth={true} duration={1000} offset={-70} data-aos='fade-down'>Experience</Link>
+          <div className="button-icons" data-aos='fade-up'><FaTools /></div>
         </li>
         <li onClick={closeMenu}>
-          <Link to="projects" smooth={true} duration={1000} offset={-70}>Projects</Link>
-          <div className="button-icons"><IoExtensionPuzzle /></div>
+          <Link to="projects" smooth={true} duration={1000} offset={-70} data-aos='fade-down'>Projects</Link>
+          <div className="button-icons" data-aos='fade-up'><IoExtensionPuzzle /></div>
         </li>
-        <li className="nav-contact" onClick={closeMenu}>
-          <Link to="contact" smooth={true} duration={1000} offset={-70}>Contact Me</Link>
-          <div className="button-icons"><FaLink /></div>
+        <li className="nav-contact" onClick={closeMenu} data-aos='fade-down'>
+          <Link to="contact" smooth={true} duration={1000} offset={-70} data-aos='fade-down'>Contact Me</Link>
+          <div className="button-icons" data-aos='fade-up'><FaLink /></div>
         </li>
       </ul>
     </div>
