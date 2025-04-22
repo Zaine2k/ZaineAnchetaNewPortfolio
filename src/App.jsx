@@ -25,20 +25,10 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <hr className="divider" data-aos='fade-up'/> 
-
       <Element name="hero"><Hero /></Element>
       <Element name="skills"><Skills /></Element>
-
-      <hr className="divider" data-aos='fade-down'/> 
-      <Navbar />
-      <hr className="divider" data-aos='fade-up'/> 
-
       <Element name="experience"><Experience /></Element>
       <Element name="projects"><Projects /></Element>
-      <hr className="divider" data-aos='fade-up'/>
-      <Navbar /> 
-      <hr className="divider" data-aos='fade-up'/>
       <Element name="contact"><Contact /></Element>
     </div>
   );
